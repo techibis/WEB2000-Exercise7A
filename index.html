@@ -6,6 +6,7 @@
 
       <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </head>
 <body>
@@ -19,13 +20,20 @@
 </nav>
 <!-- header -->
 <header class="header ">
-  <div class="overlay"></div>
+  <div class="overlay">
+   		<button class="cow" type=button data-toggle="modal" data-target="#myModal"></button>
+   		<button class="pig" type=button data-toggle="modal" data-target="#myModal"></button>
+   		<button class="horse" type=button data-toggle="modal" data-target="#myModal"></button>
+   		<button class="sheep" type=button data-toggle="modal" data-target="#myModal"></button>
+  </div>
    <div class="container">
-
    </div>
   
 </header>
-
+<!-- Modal -->
+<div>
+	
+</div>
 <!-- Contact form -->
 <div class="contact-form" id="contact">
 	<div class="container">
@@ -53,10 +61,31 @@
 	</div>
 </div>
 
+<div><!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        The Horse Says Neigh!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
 <!-- add Javasscript file from js file -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src='js/main.js'></script>
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

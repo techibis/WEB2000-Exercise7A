@@ -202,3 +202,35 @@ html,h1,h2,h3,h4,h5,h6,a{
 	color: #888;
 	font-size: 16px;
 }
+.cow {
+	background-image: url(../images/cow.png);
+	width: 280px;
+	height: 251px;
+	background-size: 280px 251px;
+	position: relative;
+	top: 250px;
+}
+.horse {
+	background-image: url(../images/horse.png);
+	width: 280px;
+	height: 251px;
+	background-size: 280px 251px;
+	position: relative;
+	top: 250px;
+}
+.pig {
+	background-image: url(../images/pig.png);
+	width: 280px;
+	height: 251px;
+	background-size: 280px 251px;
+	position: relative;
+	top: 250px;
+}
+.sheep {
+	background-image: url(../images/sheep.png);
+	width: 280px;
+	height: 251px;
+	background-size: 280px 251px;
+	position: relative;
+	top: 250px;
+}
